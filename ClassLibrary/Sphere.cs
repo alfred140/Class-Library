@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ClassLibrary
 {
-    class Sphere : Shape3D
+   public class Sphere : Shape3D
     {
         readonly float CenterX;
         readonly float CenterY;

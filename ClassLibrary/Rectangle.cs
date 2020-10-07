@@ -2,7 +2,7 @@
 
 namespace ClassLibrary
 {
-    class Rectangle : Shape2D
+   public class Rectangle : Shape2D
     {
         readonly float centerX;
         readonly float centerY;        

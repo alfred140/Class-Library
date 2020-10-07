@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 
 namespace ClassLibrary
 {
-    class Cuboid : Shape3D
+   public class Cuboid : Shape3D
 
     {
         readonly float centerX;
@@ -36,7 +36,7 @@ namespace ClassLibrary
             SizeZ = width;
 
         }
-        public override float Volume => SizeX * SizeY * SizeZ;
+        public override float Volume => (SizeX * SizeY) * SizeZ;
 
         public override Vector3 Center => new Vector3((centerX + SizeX) / 2, (centerY + SizeY) / 2, (centerZ + SizeZ) / 2);
 

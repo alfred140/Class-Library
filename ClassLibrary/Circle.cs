@@ -3,7 +3,7 @@ using System.Numerics;
 
 namespace ClassLibrary
 {
-    class Circle : Shape2D
+    public class Circle : Shape2D
     {
 
         private float Radius;
