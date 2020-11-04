@@ -50,7 +50,7 @@ namespace Lab
 
             Console.WriteLine($"\n Averege area of all shapes: {Math.Round((AllArea / shapes.Count), 2)}");
 
-            Console.WriteLine($"\n Max volume: {maxVol}, from shape: {volShape.ToString()}");
+            Console.WriteLine($"\n Max volume: {maxVol}, from shape: {volShape}");
 
             Console.ReadKey();
 

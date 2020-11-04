@@ -21,7 +21,7 @@ namespace ClassLibrary
 
             Radius = radius;
         }
-        public override float Volume => (float)((4/3) * Math.PI * Math.Pow(Radius, 3));
+        public override float Volume => (float)((4.0/3.0) * Math.PI * Math.Pow(Radius, 3));
 
         public override Vector3 Center => new Vector3(CenterX, CenterY, CenterZ);
 
